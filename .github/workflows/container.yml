@@ -1,8 +1,9 @@
-name: deploy2-container
+name: deploy3-container
+
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - "packages/container/**"
 
